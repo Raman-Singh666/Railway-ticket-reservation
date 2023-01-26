@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "alert": "^5.0.10",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.13.9",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-local-mongoose": "^6.1.0",
+    "popups": "^1.1.3"
+  },
+  "name": "Railway-ticket-reservation",
+  "version": "1.0.0",
+  "description": "railway-ticket-reservation industrial project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raman-Singh666/Railway-ticket-reservation.git"
+  },
+  "author": "Raman, Chirag and Gagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raman-Singh666/Railway-ticket-reservation.git/issues"
+  },
+  "homepage": "https://github.com/Raman-Singh666/Railway-ticket-reservation.git#readme"
+}
