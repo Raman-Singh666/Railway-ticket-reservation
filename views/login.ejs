@@ -1,0 +1,46 @@
+<%- include('headua'); -%>
+
+<section class="login loginPage">
+    <form method="POST" action="/login">
+      <div class="d-flex justify-content-center ml-0 mt-3 mr-0" style="width:400px;">
+      <div class="card text-white bg-info signInBox" style="max-width: 18rem;">
+        <div class="card-header text-center">SIGN IN</div>
+        <div class="card-body">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" name="username" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" name="password">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-dark btn-lg btn-block text-center">Submit</button>
+        </div>
+      </div>
+    </div>
+    </form>
+    <div class="infoBox">
+      <div class="card border-info mb-3" style="margin-top: 0px;">
+        <div class="card-header">Welcome to Indian Railway</div>
+        <div class="card-body text-info">
+          <h5 class="card-title">Happy Journey</h5>
+          <p class="card-text">Hope You Will make a million of memories.</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<%- include('footer'); -%>
+
+
+
+
+
+
+
+<%- include('footer'); -%>

@@ -1,0 +1,339 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.mainPage
+{
+    background:url('/images/railway1.1.jpg');
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.93;
+}
+.nav-link:hover
+{
+    background-color: bisque;
+    
+    border-radius: 10px;
+}
+.nav-link:active
+{
+    text-decoration: underline;
+}
+.nav-link:focus
+{
+    text-decoration: underline;
+}
+
+#clock {
+    font-size: 22px;
+    width: 500px;
+    color: white;
+    position: relative;
+    bottom: 1.9rem;
+    left: 55rem;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.signInBox{
+    width:70%;
+    height: 60%;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+.signUpBox{
+    width:600px;
+    height: 100%;
+    margin-top: 5px;
+    padding-top: 3px;
+
+}
+
+.loginPage{
+    background:url('/images/Railway4.1.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.89;
+}
+
+.registerPage{
+    background:url('/images/railway5.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.83;
+}
+
+
+.bookTrain{
+    background:url('/images/railway7.1.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.87;
+}
+
+.bookingPage{
+    background:url('/images/railway8.1.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.88;
+}
+
+.bookbox{
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+    margin-top: 7%;
+    border: 2px solid black;
+}
+
+.passengerDetails{
+    background:url('/images/railway9.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+
+.paymentPage{
+    background: url('/images/Railway10.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.85;
+}
+
+.ticketImage{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('/images/Railway4.2.jpg') no-repeat;
+    background-position-x: center;
+    background-size:cover;
+}
+
+.message{
+   background: url('/images/message.jpg') no-repeat;
+   background-position-x: right;
+   background-position-y: top;
+   background-size: 15% 100%;
+   margin-top: 0%;
+}
+
+.myTicketBody > p{
+    margin-bottom: 1rem;;
+}
+.showtrainsImg{
+    background: url('/images/railways1.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.table{
+    background-color: beige;
+}
+
+/*
+.message2{
+    background: url('/images/message2.png') no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 15% 80%;
+    margin-top: 0%;
+}*/
+
+.paymentHeader{
+    color: black;
+    font-size:larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.levelDetails {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+}
+
+.inputDetails, .levelDetails {
+    float:left;
+}
+
+.buttonAdd{
+    width: 10%;
+    height: 10%;
+    float: right;
+    position: absolute;
+    right:    7%;
+    bottom:   6%;
+}
+
+.buttonCross{
+    width: 10%;
+    height: 10%;
+}
+
+.inputDetails{
+    width:90%
+}
+
+.abc{
+    display: flex;
+    flex-direction: row;
+}
+
+.individualDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-top{
+    align-self: flex-start;
+}
+
+.cardDetails{
+    display:block;    
+    margin-left: 20%;
+    margin-right: auto;
+    /*margin: 0 auto; /* Added */
+    /*float: none;  Added */
+    /*margin-bottom: 10px;  Added */
+}
+
+.addImage{
+    size: 12%;
+}
+.infoBox{
+    margin-top: 0%;
+    width: 30%;
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 60%;
+    padding-left: 10%;
+}
+
+.time
+{
+    height: 54px;
+    background-color: black;
+}
+
+.heading
+{
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 8px;
+}
+
+.myTicketHeader{
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: black;
+}
+
+.headerText1{
+    margin-left: 18%;
+    margin-top: 2px;
+    font-size:x-large;
+}
+
+.headerText2{
+    margin-left: 15%;
+    margin-top: 2px;
+    font-size:x-large;
+}
+
+.myTicketBody{
+    font-size: medium;
+}
+
+.line-1{
+    border-bottom: 1px solid black;
+}
+
+.headingInfo{
+    font-size:x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: #212529
+}
+
+.line-2{
+    border-top: 1px solid black;
+}
+
+.item > p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+select#states {
+    height: 2.2rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+
+.ml{
+    margin-left: 40%;
+}
+
+.mlInfo{
+    margin-left: 0.4rem;
+}
+.sameLine{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/*pnr details*/
+.pnrPage{
+    background:url('/images/railway6.2.jpg') no-repeat;
+    height: 900px;
+    background-size: 100%;
+    overflow: hidden;
+
+}
+.itemTable{
+    border: 2px solid black;
+    background-color: rgb(241, 236, 236);
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.pnrText{
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 80;
+}
+
+
